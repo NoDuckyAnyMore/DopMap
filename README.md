@@ -65,7 +65,7 @@ Increasing the number of transmitter positions from one to four makes the comple
 
 ![Layout completion with one to four transmitter positions](images/multi-transmitter-results.png)
 
-In the reported experiments, the **90th-percentile** anchor-wall distance error was **1.22 m**, and the **90th-percentile** moving-scatterer trajectory error was **0.88 m**. With four transmitter positions, the **mean distance error for the additional walls** was **0.29 m**; reported wall-direction errors were below **4°**. These numbers describe different stages and error statistics.
+In the reported experiments, the **90th-percentile** anchor-wall distance error was **1.22 m**, and the **90th-percentile** moving-scatterer trajectory error was **0.88 m**. With four transmitter positions, the **mean distance error for the additional walls** was **0.29 m**; wall-direction errors were mostly within **4°**. These numbers describe different stages and error statistics.
 
 ## Project scope
 
