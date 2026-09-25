@@ -4,9 +4,7 @@
 
 DopMap reconstructs an indoor wall layout from millimeter-wave communication links. It uses the bistatic Doppler signatures produced by a moving scatterer to establish one **anchor wall**, then reuses beam-pair angle measurements to extend the map to other walls. The method does not rely on wideband time-of-flight ranging or timing synchronization between the transmitter and receiver.
 
-![Anchor-wall geometry: receiver, transmitter, mirror transmitter, and reflection point](images/anchor-wall-geometry.png)
-
-The diagrams on this page come from our four-slide DopMap project presentation. Their original labels are in Chinese; the captions below explain the geometry in English.
+![Anchor-wall geometry: receiver, transmitter, mirror transmitter, and reflection point](images/anchor-wall-geometry-en.png)
 
 ## Why map with communication signals?
 
@@ -16,7 +14,7 @@ Narrow beams are essential for mmWave links, but an indoor link may be blocked w
 
 The same moving scatterer is observed through a LoS sensing link and a wall-reflected NLoS sensing link. By the mirror principle, the latter behaves geometrically like a link from a mirror transmitter. The receiver tracks the scatterer's AoA and the two bistatic Doppler frequencies over a short interval, jointly estimating its trajectory and the real and mirror transmitter positions.
 
-![LoS and wall-reflected sensing links observing the same moving scatterer](images/dual-sensing-links.png)
+![LoS and wall-reflected sensing links observing the same moving scatterer](images/dual-sensing-links-en.png)
 
 The central measurement relation is the bistatic Doppler shift. For each link $m\in\{1,2\}$ and observation time $k$,
 
@@ -42,7 +40,7 @@ $$
 
 Estimates from several transmitter positions are clustered in wall angle–distance space, reducing the effect of angle error and isolated false detections. This stage uses beam-pair measurements and does not require continued tracking of the moving scatterer.
 
-![Geometry for completing the remaining walls from an anchor wall and AoA/AoD](images/layout-completion-geometry.png)
+![Geometry for completing the remaining walls from an anchor wall and AoA/AoD](images/layout-completion-geometry-en.png)
 
 <details>
 <summary>Example beam-pair power map</summary>
